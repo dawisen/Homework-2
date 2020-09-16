@@ -1,0 +1,43 @@
+/* add margins to the body and float content to the left */
+
+.container {
+  margin: 50px 10px;
+}
+
+form {
+  max-width: 450px;
+}
+
+.jumbotron {
+  max-width: 600px;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background-color: rgb(56, 56, 56);
+  }
+  .container,
+  .container-sm {
+    margin: 10px 0px;
+    max-width: 540px;
+  }
+}
+
+.navbar-light {
+  background-color: #99e8e1;
+  font-weight: bold;
+}
+
+.navbar .container-fluid > .navbar-header {
+  margin-right: 10px;
+}
+
+.navbar .navbar-nav {
+  flex-direction: row;
+  margin: 5px;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
