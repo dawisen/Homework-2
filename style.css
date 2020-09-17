@@ -1,5 +1,10 @@
 /* add margins to the body and float content to the left */
 
+body {
+  background-image: url(geometric-leaves.png);
+  background-repeat: repeat;
+}
+
 .container {
   margin: 50px 10px;
 }
@@ -59,4 +64,13 @@ form {
     float: none;
     width: 90%;
   } 
+}
+
+.img-project {
+  max-width: 215px;
+  max-height: 215px;
+  float: left;
+  padding: 10px;
+  margin: 8px;
+  background-color: rgb(56, 56, 56);
 }
